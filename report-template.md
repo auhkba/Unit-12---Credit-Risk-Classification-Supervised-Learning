@@ -1,27 +1,13 @@
-# Unit-12---Credit-Risk-Classification-Supervised-Learning
+# Module 12 Report Template
 
 ## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis. 
-
-The purpose of the analysis is to build a model to predict the creditworthiness of borrower based on existing lending data.
-
+* Explain the purpose of the analysis.
 * Explain what financial information the data was on, and what you needed to predict.
-
-There are 77,536 lines of lending data. Each line includes seven loan features, such as loan size, interest rate, etc,. Each line of data is either labeled with the `0` (healthy loan) or `1` (high-risk loan) label.
-
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-
-Target values consist of two classes, one is ‘0’, representing healthy loan, the other is ‘1’ representing ‘high-risk loan’. The existing data have 75,036 with ‘0’ which are healthy loans, 
-2,500 with ‘1’ which are high risk loans.
-
-
 * Describe the stages of the machine learning process you went through as part of this analysis.
-
-
-
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
